@@ -1,0 +1,41 @@
+@media screen and (min-width: 768px){
+
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+  .seccionMenu{
+    width: 100%;
+    height: 70px;
+    background: grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  li {
+    list-style: none;
+    border: 2px solid black;
+    width: 180px;
+    height: 40px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 150%;
+    font-family: arial;
+    font-weight: bold;
+  }
+
+}
