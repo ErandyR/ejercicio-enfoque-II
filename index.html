@@ -7,7 +7,7 @@
     <title>Enfoque de diseño</title>
   </head>
   <body>
-    <header>
+    <section class="contenedorGeneral">
       <section class="seccionMenu">
         <nav class="menu">
           <li><a href="#">Apps</a></li>
@@ -17,61 +17,90 @@
           <li><a href="#">Newspapers</a></li>
         </nav>
       </section>
-    </header>
-    <section class="seccionInicio">
-      <div class="inicio">
-        <h1 class="h1Inicio">Texto</h1>
-      </div>
-    </section>
-    <section class="seccionTextoConImagenes">
-      <div class="contenedorh2Texto">
-        <h2 class="h2TextoconImagenes">HEADING</h2>
-      </div>
-      <div class="contenedorTextoEImagen1"> <!--a este contenedor le dare la propiedas "displey:flex" y "justify-content:space-between" -->
-        <div class="contenedorImagen1">
+      <header>
+        <section class="seccionInicio">
+          <div class="inicio">
+            <h1 class="h1Inicio">Be Organic!</h1>
+          </div>
+        </section>
+      </header>
+      <section class="seccionTextoConImagenes">
+        <div class="contenedorh2Texto">
+          <p class="tituloTextoconImagenes">Como ser más Organico:</p>
         </div>
-        <div class="contenedorTexto1">
-          <p class="texto1"></p>
+        <div class="contenedorTextoEImagen"> <!--a este contenedor le dare la propiedas "displey:flex" y "justify-content:space-between" -->
+          <div class="contenedorImagen1">
+            <img src="assets/img/veggie.jpg" class="imagenVeggie">
+          </div>
+          <div class="contenedorTexto1">
+            <p class="tituloTexto">Cultura Veggie</p>
+            <p class="texto">
+              Por si no lo sabías el Veganismo o Cultura Vegana es una filosofía y
+              estilo de vida basado en el respeto hacia los animales con capacidad
+              para sentir. De esa cuenta, las personas veganas no usan ni consumen productos de origen animal.
+              Según Donald Watson, fundador de la Sociedad Vegana
+              “el veganismo es una filosofía de vida que excluye todas
+              las formas de explotación y crueldad hacia el reino animal
+              e incluye una reverencia de vida. En la práctica se aplica
+              siguiendo una dieta vegetariana pura y anima al uso de alternativas
+              para todas las materias derivadas parcial o totalmente de animales”.
+              Parte importante tambien de la cultura "Veggie" es el uso de produstos organicos,
+              esfocandose así en el cuidado de los animales y del planeta.</p>
+          </div>
         </div>
-      </div>
-      <div class="contenedorTextoEImagen2"> <!--a este contenedor le dare la propiedas "displey:flex" y "justify-content:space-between" -->
-        <div class="contenedorImagen2">
+        <div class="contenedorTextoEImagen espacioMargin"> <!--a este contenedor le dare la propiedas "displey:flex" y "justify-content:space-between" -->
+          <div class="contenedorTexto2">
+            <p class="tituloTexto">Productos Organicos</p>
+            <p class="texto segundoTexto">
+              Los productos orgánicos certificados son aquellos que se producen,
+              almacenan, elaboran, manipulan y comercializan de conformidad con
+              especificaciones técnicas precisas (normas), y cuya certificación
+              de productos "orgánicos" corre a cargo de un organismo especializado.
+              Una vez que una entidad de este tipo ha verificado el cumplimiento de
+              las normas que rigen el ámbito de los productos orgánicos, se concede
+              una etiqueta al producto. Esta etiqueta variará de acuerdo con el organismo
+              de certificación que la expida, pero puede tomarse como garantía de cumplimiento
+              de los requisitos fundamentales de un producto "orgánico" desde la finca hasta el mercado.
+              Es importante señalar que la etiqueta de calidad orgánica se aplica al proceso de producción,
+              y garantiza que el producto se ha creado y elaborado en forma que no perjudique al medio ambiente. </p>
+          </div>
+          <div class="contenedorImagen2">
+            <img src="assets/img/productos.jpg">
+          </div>
         </div>
-        <div class="contenedorTexto2">
-          <p class="texto1"></p>
+      </section>
+      <section class="seccionVideo">
+        <div class="parrafoYVideo">
+          <div class="contenedorParrafo">
+            <p class="tituloTextoconImagenes">Cocina Organico!</p>
+          </div>
+          <div class="contenedorVideo">
+            <iframe width="70%" height="500" src="https://www.youtube.com/embed/foHVQGYFgkU" frameborder="0" allowfullscreen></iframe>
+          </div>
         </div>
-      </div>
-    </section>
-    <section class="seccionVideo">
-      <div class="h2YVideo">
-        <div class="contenedorH2video">
-          <h2 class="h2SeccionVideo"></h2>
+      </section>
+      <section class="seccionFormulario">
+        <div class="contenedorH2Formulario">
+          <h2 class="h2Formulario">Dejanos tu comentario:</h2>
         </div>
-        <div class="contenedorVideo">
-          <video src="videofile.ogg" autoplay poster="posterimage.jpg">
-          </video>
+        <div class="contenedorFormulario">
+          <form class="formulario">
+            <input class="data" type="text" id="email" placeholder="Ingresa tu Email">
+            <input class="data" type="text" id="nombre" placeholder="Ingresa tu Nombre">
+            <input class="data" type="text" id="comentario" placeholder="Comentario">
+          </form>
         </div>
-      </div>
-    </section>
-    <section class="seccionFormulario">
-      <div class="contenedorH2Formulario">
-        <h2 class="h2Formulario"></h2>
-      </div>
-      <div class="contenedorFormulario">
-        <form class="formulario" action="index.html" method="post">
-          <input type="text" name="" value="">
-          <input type="text" name="" value="">
-          <input type="text" name="" value="">
-        </form>
-        <button type="button" name="button" class="botonFormulario"></button>
-      </div>
-    </section>
-    <section class="seccionFooter">
-      <footer class="footer">
-        <div class="contenedorInformacionFooter">
-
+        <div class="boton">
+          <button type="button" name="button" class="botonFormulario">Enviar comentario</button>
         </div>
-      </footer>
+      </section>
+      <section class="seccionFooter">
+        <footer class="footer">
+          <div class="contenedorInformacionFooter">
+            <p class="parrafoFooter">Copyright©</p>
+          </div>
+        </footer>
+      </section>
     </section>
   </body>
 </html>

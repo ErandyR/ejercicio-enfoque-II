@@ -1,8 +1,13 @@
-@media screen and (min-width: 768px){
+@media screen and (min-width: 780px){
+
 
   * {
     padding: 0;
     margin: 0;
+  }
+
+  .contenedorGeneral {
+    width: 100%;
   }
 
   .seccionMenu{
@@ -22,7 +27,7 @@
   li {
     list-style: none;
     border: 2px solid black;
-    width: 180px;
+    width: 160px;
     height: 40px;
     background: white;
     display: flex;
@@ -38,4 +43,279 @@
     font-weight: bold;
   }
 
+  .seccionInicio {
+    padding: 0;
+    margin: 0;
+  }
+
+  .inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/flores.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 600px;
+  }
+
+  .h1Inicio{
+    font-family: arial;
+    font-size: 450%;
+    font-weight: bold;
+  }
+  .contenedorh2Texto {
+    display: flex;
+    justify-content: center;
+    margin: 7%;
+  }
+  .contenedorTextoEImagen{
+    display: flex;
+    justify-content: space-around;
+  }
+  .contenedorImagen1 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    margin-left: 10%;
+    margin-right: 5%;
+  }
+  .contenedorImagen2{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 10%;
+  }
+  .espacioMargin{
+    margin-top: 7%;
+  }
+  .imagenVeggie {
+    width: 80%;
+    height: 80%;
+  }
+
+  .contenedorTexto1{
+    width: 100%;
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 10%;
+  }
+  .contenedorTexto2{
+    width: 100%;
+    height: 100%;
+    margin-left: 10%;
+    margin-right: 5%;
+  }
+  .tituloTexto {
+    font-size: 170%;
+    font-family: arial;
+    font-weight: bold;
+  }
+  .tituloTextoconImagenes{
+    font-size: 220%;
+    font-family: arial;
+    font-weight: bold;
+  }
+  .texto {
+    font-size: 120%;
+    font-family: arial;
+    margin-top: 2%;
+    text-align: justify;
+  }
+  .contenedorTextoEImagen2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7%;
+  }
+
+  .contenedorParrafo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 150%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+  }
+  .contenedorVideo{
+    display: flex;
+    justify-content: center;
+  }
+  .seccionFormulario{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .contenedorH2Formulario {
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+  }
+  .contenedorFormulario {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+    margin-top: 4%;
+  }
+  .formulario{
+    width: 80%;
+    height: 100%;
+    margin-left: 49%;
+  }
+
+  .data {
+    width: 50%;
+    height: 20px;
+    margin: 2%;
+  }
+  #comentario{
+    height: 60px;
+  }
+  .boton{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7%;
+  }
+  .contenedorInformacionFooter {
+    background: #596362;
+    width: 100%;
+    height: 50px;
+  }
+  .contenedorInformacionFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+
+@media (max-width: 779px){
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+  .contenedorGeneral {
+    width: 100%;
+  }
+
+  .seccionMenu{
+    width: 100%;
+    height: 70px;
+    background: grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  li {
+    list-style: none;
+    border: 2px solid black;
+    width: 160px;
+    height: 40px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 150%;
+    font-family: arial;
+    font-weight: bold;
+  }
+
+  .seccionInicio {
+    padding: 0;
+    margin: 0;
+  }
+
+  .inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/flores.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 600px;
+  }
+
+  .h1Inicio{
+    font-family: arial;
+    font-size: 450%;
+    font-weight: bold;
+  }
+  .seccionTextoConImagenes{
+    display: none;
+  }
+
+  .contenedorParrafo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 150%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+  }
+  .contenedorVideo{
+    display: flex;
+    justify-content: center;
+  }
+  .seccionFormulario{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .contenedorH2Formulario {
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+  }
+  .contenedorFormulario {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+    margin-top: 4%;
+  }
+  .formulario{
+    width: 80%;
+    height: 100%;
+    margin-left: 49%;
+  }
+
+  .data {
+    width: 50%;
+    height: 20px;
+    margin: 2%;
+  }
+  #comentario{
+    height: 60px;
+  }
+  .boton{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7%;
+  }
+  .contenedorInformacionFooter {
+    background: #596362;
+    width: 100%;
+    height: 50px;
+  }
+  .contenedorInformacionFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
